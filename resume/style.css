@@ -1,5 +1,12 @@
 body {
-  font-family:Open Sans, Arial, san-serif;
-  font-size:1en;
-  color:#444;
+  font-family: Open Sans, Arial, san-serif;
+  font-size: 1en;
+  color: #444;
+  font-weight: 400;
+}
+h1 {
+  font-size: 3en;
+  color: #33485e;
+  text-transform: uppercase;
+  text-align: center;
 }

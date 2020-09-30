@@ -10,3 +10,15 @@ h1 {
   text-transform: uppercase;
   text-align: center;
 }
+p.title {
+  font-size: 1.5em;
+  color: #33485e;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 400;
+  background-color: #33485e
+}

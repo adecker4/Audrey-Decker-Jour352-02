@@ -7,11 +7,17 @@ body {
   font-weight: 400;
 }
 /* banner name at top */
-h1 {
+#name {
   font-size: 3en;
   color: #33485e;
   text-transform: uppercase;
   text-align: center;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: #33485e;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
 }
 /* my title style */
 p.title {
@@ -20,15 +26,21 @@ p.title {
   text-transform: uppercase;
 }
 /* styles for headers */
-h2 {
+#sectionheader {
   font-size: 1.5em;
   text-transform: uppercase;
   color: white;
   font-weight: 400;
-  background-color: #33485e
+  background-color: #33485e;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 70%;
+  min-width: 300px;
 }
 /* styles for job titles */
-h3 {
+#jobtitle {
   font-weight: 600;
   font-size: 1.5em;
 }

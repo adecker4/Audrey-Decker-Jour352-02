@@ -2,10 +2,11 @@
 
 body {
   font-family: Open Sans, Arial, san-serif;
-  font-size: 1en;
+  font-size: 1em;
   color: #444;
   font-weight: 400;
 }
+/* used container to make it look more like a website */
 #container {
   width: 100%;
   max-width: 1200px;
@@ -14,7 +15,7 @@ body {
 }
 /* banner name at top */
 #name {
-  font-size: 3en;
+  font-size: 3em;
   color: #33485e;
   text-transform: uppercase;
   text-align: center;
@@ -27,6 +28,8 @@ body {
   margin: 0px;
   padding: 0px;
   text-align: center;
+}
+#menu li{
   display: inline;
 }
 #description {
@@ -60,19 +63,20 @@ body {
   margin-right: 0px;
   width: 70%;
   min-width: 300px;
+  padding: 5px;
 }
 /* styles for job titles */
-#jobtitle {
+.jobtitle {
   font-weight: 600;
   font-size: 1.5em;
 }
 /* styles for my job organization */
-#organization {
+.organization {
   font-weight: 400;
   font-size: 1.25em;
 }
 /* styles for job dates */
-#date {
+.date {
   font-style: italic;
   font-weight: 400;
   font-size 1em;

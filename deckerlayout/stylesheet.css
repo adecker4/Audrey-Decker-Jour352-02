@@ -8,4 +8,32 @@
   text-transform: uppercase;
   text-align: center;
   margin: 0 auto;
+  font-family: "Impact";
+}
+#headline {
+  font-family: Helvetica, sans-serif;
+  color: #33495e;
+  text-transform: uppercase;
+}
+#byline {
+font-family: Helvetica, sans-serif;
+font-size: 14px;
+font-style: italic;
+}
+p {
+  font-family: Georgia, serif;
+  font-size: 13px;
+}
+h3 {
+  font-size: 12px;
+}
+blockquote {
+  font: 24px Georgia, serif;
+  color: #33495e;
+  font-style: italic;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 3px solid #33495e;
 }

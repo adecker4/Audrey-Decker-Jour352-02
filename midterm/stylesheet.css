@@ -1,0 +1,92 @@
+/* This is my CSS for my midterm! Lots of IDs :) */
+
+h1 {
+  font-size: 3em;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  margin: 0 auto;
+  color: #696969;
+  border-bottom: 1px solid #696969;
+  width: 60%;
+  min-width: 300px;
+  text-align: center;
+  float: center;
+}
+#soccerball {
+  width: 45px;
+  height: 45px;
+  padding-top: 5px;
+  padding-right: 40px;
+  float: right;
+}
+#rapinoe1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2 {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  font-style: italic;
+  color: #696969;
+}
+h3 {
+  font-size: 22px;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  color: #B22222;
+}
+p {
+  font-size: 12px;
+  font-family: "Helvetica", Arial, sans-serif;
+}
+h4 {
+  font-size: 11px;
+  font-family: "Helvetica", Arial, sans-serif;
+  color: #696969;
+  text-align: center;
+}
+ul {
+  font-size: 12px;
+  font-family: "Helvetica", Arial, sans-serif;
+}
+#related {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;;
+  color: #B22222;
+  font-style: italic;
+  text-transform: uppercase;
+}
+#byline_date {
+  font-size: 14px;
+  font-family: "Helvetica", Arial, sans-serif;
+  color: #696969;
+  padding-left: 30px;
+}
+#container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+body {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+blockquote {
+  font: 20px "Times New Roman", Times, serif;
+  color: #696969;
+  font-style: italic;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 3px solid #696969;
+}

@@ -1,47 +1,30 @@
-/* styles for my resume */
+/* stylelint-disable selector-list-comma-newline-after */
 
-.header {
+.blog-header {
   line-height: 1;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #e5e5e5;
 }
 
-.header-logo {
+.blog-header-logo {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
-  text-transform: uppercase;
-  font-size: 50px;
-  text-align: center;
+  font-size: 2.25rem;
 }
 
-.header-logo:hover {
+.blog-header-logo:hover {
   text-decoration: none;
-}
-
-.col-4 {
-  border-radius: 10px;
-  float: right;
-}
-
-.jumbotron.p-4.p-md-5 {
-  border-radius: 5px;
-  background-color: #676294;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 }
 
-h2 {
-  border-bottom: 1px solid black;
-}
-
-h5 {
-  font-style: italic;
-}
-
 .display-4 {
-  font-size: 4rem;
-  color: white;
-  border-radius: 5px;
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
 }
 
 .nav-scroller {
@@ -80,32 +63,44 @@ h5 {
   flex: 0 0 auto;
 }
 
-.section {
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+/* Pagination */
+.blog-pagination {
   margin-bottom: 4rem;
 }
-.section-title {
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-title {
   margin-bottom: .25rem;
   font-size: 2.5rem;
 }
-.section-meta {
+.blog-post-meta {
   margin-bottom: 1.25rem;
   color: #999;
 }
 
-.bodycontainer {
-  background-color: #f9f9f9;
-  border-radius: 5px;
-  padding-bottom: 20px;
-}
-
-.footer {
+/*
+ * Footer
+ */
+.blog-footer {
   padding: 2.5rem 0;
-  border-radius: 5px;
   color: #999;
   text-align: center;
   background-color: #f9f9f9;
   border-top: .05rem solid #e5e5e5;
 }
-.footer p:last-child {
+.blog-footer p:last-child {
   margin-bottom: 0;
 }

@@ -12,7 +12,37 @@
   text-align: center;
 }
 
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+}
+
 p {
   font-family: Georgia, serif;
   line-height: 180%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+figcaption {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  color: #A8A8A8;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+
+.footer {
+  font-family: 'Montserrat', sans-serif;
 }

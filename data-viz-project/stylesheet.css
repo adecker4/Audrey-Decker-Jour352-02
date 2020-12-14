@@ -23,32 +23,26 @@ h2 {
 }
 
 .jumbotron {
-  background-image: url("headers.jpg");
+  background-image: url("header2.jpg");
   width: 100%;
   height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.title {
-  font-size: 100px;
-  text-transform: uppercase;
-  font-family: "Syne Mono", monospace;
-  letter-spacing: 10px;
-}
-
 .graphic {
   border: 1px solid #696969;
 }
 
-.nav-scroller {
-  position: relative;
+.navbar-fixed-top {
+  position: sticky;
   z-index: 2;
   height: 2.75rem;
   overflow-y: hidden;
+  background-color: white;
 }
 
-.nav-scroller .nav {
+.navbar-fixed-top .nav {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -90,16 +84,23 @@ h2 {
   margin-bottom: 25px;
 }
 
+.section {
+  max-width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 blockquote {
-  font-size: 23px;
-  color: #696969;
+  font-size: 21px;
+  color: #8B0000;
   font-style: italic;
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left: 80px;
   margin-right: 80px;
   padding-left: 15px;
-  border-left: 2px solid #696969;
+  border-left: 2px solid #8B0000;
 }
 
 figcaption {
